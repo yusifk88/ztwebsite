@@ -9,15 +9,15 @@
 
     <v-row class="mt-4" justify="center">
       <v-col cols="12" sm="5" v-for="(industry,index) in industries" :key="index">
-        <v-card>
+        <v-card :height="$vuetify.display.mobile? 'auto'  : 370">
           <v-card-text>
             <v-row dense>
               <v-col cols="12" sm="6">
-                <v-avatar rounded size="200" class="rounded-lg">
-                  <v-img height="300" :src="industry.img"></v-img>
+                <v-avatar size="100%" rounded class="rounded-lg">
+                  <v-img :src="industry.img"></v-img>
                 </v-avatar>
               </v-col>
-              <v-col cols="12" sm="6">
+              <v-col cols="12" sm="6" class="pa-3 pl-5">
                 <h2 class=" hero-text text-h4 font-weight-bold ">{{industry.title}}</h2>
                 <ul>
                   <li class="pa-1" v-for="(service,i) in industry.services" :key="i">
