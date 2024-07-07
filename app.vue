@@ -17,7 +17,7 @@
           About Us
         </v-btn>
 
-        <v-btn slim>
+        <v-btn slim to="/services">
           Services
         </v-btn>
 

@@ -14,7 +14,7 @@
             <v-btn size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
           </p>
         </v-col>
-        <v-col cols="12" sm="6" class="align-content-end text-right">
+        <v-col cols="12" sm="6" class="align-content-end text-right" v-if="$vuetify.display.mdAndUp">
 
           <v-avatar size="420" rounded class="mr-auto rounded-lg mt-8">
             <v-img aspect-ratio="1" src="/img/image2.jpeg"></v-img>

@@ -13,12 +13,34 @@
       </v-card>
     </v-col>
   </v-row>
+
+  <v-row class="mt-5" v-if="extended">
+    <v-col cols="12" sm="4" v-for="(service,index) in others" :key="index">
+      <v-card variant="flat">
+        <v-card-text class="pa-12">
+          <v-icon size="60" class="hero-text">{{service.icon}}</v-icon>
+          <p class="font-weight-black text-h5">{{service.title}}</p>
+          <ul class="text-left">
+            <li v-for="(item, i) in service.details" :key="1">{{item}}</li>
+          </ul>
+        </v-card-text>
+      </v-card>
+    </v-col>
+  </v-row>
 </template>
 
 <script lang="ts">
 import {defineComponent} from 'vue'
 
 export default defineComponent({
+  props:
+    {
+    extended:{
+      type:Boolean,
+      default:false
+    }
+    }
+  ,
   name: "ServicesCompnent",
   data() {
     return {
@@ -57,6 +79,21 @@ export default defineComponent({
         {
           icon: "mdi-server-network",
           title: "low voltage Cat6 and  Fiber cabling",
+          details: ["24/7 Technical Support", "Network Operations Center", "Remote Support Center", "On-Site IT Response", "Device troubleshooting"]
+
+        }
+
+      ],
+      others:[
+        {
+          icon: "mdi-xml",
+          title: "Web & application development",
+          details: ["24/7 Technical Support", "Network Operations Center", "Remote Support Center", "On-Site IT Response", "Device troubleshooting"]
+
+        },
+        {
+          icon: "mdi-fit-to-screen",
+          title: "IT consultancy",
           details: ["24/7 Technical Support", "Network Operations Center", "Remote Support Center", "On-Site IT Response", "Device troubleshooting"]
 
         }
