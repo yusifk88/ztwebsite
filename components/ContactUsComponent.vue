@@ -7,7 +7,7 @@
           <p class="text-center text-white mt-5">Contact us or give us a call on +1 (708) 940-9918</p>
         </v-col>
         <v-col cols="12" class="text-center">
-          <v-btn size="x-large" rounded variant="flat">Contacts us now<v-icon>mdi-arrow-right</v-icon></v-btn>
+          <v-btn to="/contact" size="x-large" rounded variant="flat">Contacts us now<v-icon>mdi-arrow-right</v-icon></v-btn>
         </v-col>
 
       </v-row>
