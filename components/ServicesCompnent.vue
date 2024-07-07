@@ -97,6 +97,13 @@ export default defineComponent({
           details: ["24/7 Technical Support", "Network Operations Center", "Remote Support Center", "On-Site IT Response", "Device troubleshooting"]
 
         }
+,
+        {
+          icon: "mdi-cube-unfolded",
+          title: "Custom Solutions",
+          details: ["24/7 Technical Support", "Network Operations Center", "Remote Support Center", "On-Site IT Response", "Device troubleshooting"]
+
+        }
 
       ]
     }
