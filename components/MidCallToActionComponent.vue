@@ -5,7 +5,7 @@
       <v-col cols="12" sm="6" class="pt-md-16">
         <h1 class="text-h3 font-weight-black hero-text mt-md-16">Elevate Your Brand with IT that Speaks Excellence</h1>
         <p>Join forces with our acclaimed experts to shape a tech-savvy brand image, powered by award-winning support and strategic insights.</p>
-        <v-btn class="mx-auto mt-5" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
+        <v-btn to="/contact" class="mx-auto mt-5" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
 
       </v-col>
       <v-col cols="12" sm="6">

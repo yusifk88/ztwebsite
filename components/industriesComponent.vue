@@ -32,7 +32,7 @@
       </v-col>
       <v-col cols="12" class="text-center">
         <h3 class="text-center text-white mt-3">Let's help your organization</h3>
-        <v-btn class="mx-auto mt-3" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
+        <v-btn to="/contact" class="mx-auto mt-3" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
       </v-col>
     </v-row>
 

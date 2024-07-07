@@ -11,7 +11,7 @@
             enhance security, and drive your business forward.
           </h3>
           <p class="mt-8">
-            <v-btn size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
+            <v-btn to="/contact" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>
           </p>
         </v-col>
         <v-col cols="12" sm="6" class="align-content-end text-right" v-if="$vuetify.display.mdAndUp">
