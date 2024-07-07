@@ -16,6 +16,8 @@
         }
       </Style>
 
+
+      <Link rel="icon" href="/img/zt_logo.png"></Link>
     </Head>
     <v-app class="pt-16">
       <v-app-bar color="#04244C" flat class="pa-5 pl-16 pr-16">
