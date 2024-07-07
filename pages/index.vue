@@ -1,9 +1,9 @@
 <template>
  <home-page-jumbothrone></home-page-jumbothrone>
-  <div class="bg-blue-grey-lighten-5 pa-4">
+  <div class="bg-blue-grey-lighten-5 pa-4" style="background-attachment: fixed" >
     <v-container>
 
-      <h2 class="text-center text-h2 mt-5 font-weight-bold hero-text">Zero Trust Services</h2>
+      <h2 class="text-center text-h2 mt-5 font-weight-bold hero-text">Services</h2>
       <P class="text-center">
         All Covered is designed to ensure your technology infrastructure is stable, secure, and tuned to your business
         needs. Our expansive portfolio of services and solutions delivers the right managed IT service plan to optimize
@@ -18,6 +18,8 @@
   <industries-component></industries-component>
 
   <parteners-component></parteners-component>
+
+  <testimonials-components></testimonials-components>
 
   <mid-call-to-action-component></mid-call-to-action-component>
 

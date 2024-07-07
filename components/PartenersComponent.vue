@@ -5,10 +5,7 @@
     <h1 class="text-center font-weight-black text-h4 mt-5">Our Partners</h1>
 <v-row class="mt-4">
   <v-col cols="12" sm="12">
-    <Vue3Marquee
-
-
-    >
+    <Vue3Marquee>
       <v-img
           v-for="(img,index) in imagesArr"
           :key="index"

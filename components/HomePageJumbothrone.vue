@@ -17,7 +17,7 @@
         <v-col cols="12" sm="6" class="align-content-end text-right">
 
           <v-avatar size="420" rounded class="mr-auto rounded-lg mt-8">
-            <v-img aspect-ratio="1" src="/img/zt_home_image2.jpg"></v-img>
+            <v-img aspect-ratio="1" src="/img/image2.jpeg"></v-img>
           </v-avatar>
 
         </v-col>
