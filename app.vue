@@ -24,14 +24,16 @@
 
         <v-app-bar-nav-icon @click="showDrawer=!showDrawer" v-if="!$vuetify.display.mdAndUp"></v-app-bar-nav-icon>
 
-        <v-app-bar-title style=" cursor:pointer" @click="$router.push('/')">
-          <v-row>
-            <v-col :cols="$vuetify.display.mdAndUp ? 1 : 4">
-              <v-img src="/img/zt_logo.png" width="40"></v-img>
-            </v-col>
-            <v-col cols="4" v-if="$vuetify.display.mdAndUp"><p class="text-h5 font-weight-black hero-text">Zero
-              Trust</p></v-col>
-          </v-row>
+        <v-app-bar-title style="cursor:pointer" @click="$router.push('/')">
+
+            <img src="/img/zt_logo.png" width="30"  /><span class="text-h4 font-weight-black hero-text mb-5"> Zero Trust</span>
+
+
+<!--          <v-row>-->
+<!--            <v-col :cols="!$vuetify.display.mdAndUp ? 4 : 1">-->
+<!--            </v-col>-->
+<!--            <v-col cols="4" v-if="$vuetify.display.mdAndUp"><p class="text-h5 font-weight-black hero-text">Zero Trust</p></v-col>-->
+<!--          </v-row>-->
         </v-app-bar-title>
 
 
