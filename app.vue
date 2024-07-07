@@ -57,9 +57,9 @@
           Contact Us
         </v-btn>
 
-        <v-btn v-if="$vuetify.display.mdAndUp" slim to="/resources">
-          Resources
-        </v-btn>
+<!--        <v-btn v-if="$vuetify.display.mdAndUp" slim to="/resources">-->
+<!--          Resources-->
+<!--        </v-btn>-->
 
       </v-app-bar>
 
@@ -146,14 +146,14 @@
             Contact Us
           </v-btn>
 
-          <v-btn
-              class="mx-2"
-              rounded="xl"
-              variant="text"
-              to="/resources"
-          >
-            Resources
-          </v-btn>
+<!--          <v-btn-->
+<!--              class="mx-2"-->
+<!--              rounded="xl"-->
+<!--              variant="text"-->
+<!--              to="/resources"-->
+<!--          >-->
+<!--            Resources-->
+<!--          </v-btn>-->
 
           <v-col class="text-center mt-4" cols="12">
             {{ new Date().getFullYear() }} — <strong>Zero Trust LLC</strong>

@@ -5,9 +5,7 @@
 
       <h2 class="text-center text-h2 mt-5 font-weight-bold hero-text">Services</h2>
       <P class="text-center">
-        All Covered is designed to ensure your technology infrastructure is stable, secure, and tuned to your business
-        needs. Our expansive portfolio of services and solutions delivers the right managed IT service plan to optimize
-        your businesses productivity.
+        Zero Trust is dedicated to maintaining a stable, secure, and business-aligned technology infrastructure. Our comprehensive range of services and solutions provides tailored managed IT plans to enhance your company's productivity.
       </P>
 
       <services-compnent></services-compnent>

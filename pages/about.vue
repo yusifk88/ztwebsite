@@ -8,12 +8,9 @@
       </v-col>
       <v-col cols="12" sm="8" class="mx-auto">
         <p class="text-justify">
-          Our company is built on the core principles of Zero Trust as in Cybersecurity. A framework centered around the concept of not automatically trusting anything inside or outside a network parameter.
-          Instead, it requires strict verification of anyone and anything trying to access the resources on the network, regardless of their location.
-          This approach helps enhance security by reducing the potential of any attack while minimizing the impact of any breaches.
-
-          To ensure that our clients are safe and protected, that is why we prefer to oversee all aspects of your IT services this way we will be in a much better position to carry out our mandate.
-        </p>
+          At Zero Trust Managed IT & Cybersecurity Solutions, we are driven by the core principles of Zero Trust in cybersecurity. This innovative framework is centered around the concept of not automatically trusting anything inside or outside a network perimeter. Instead, it requires strict verification of anyone and anything attempting to access network resources, regardless of their location.
+          By adopting this approach, we enhance security, reduce the potential for attacks, and minimize the impact of any breaches. Our commitment to Zero Trust means we proactively manage and oversee all aspects of your IT services. This comprehensive oversight allows us to ensure your systems are not only secure but also optimized for peak performance.
+          Our mission is to provide robust, reliable, and resilient IT solutions that protect our clients' critical assets and data. With Zero Trust Managed IT & Cybersecurity Solutions, you can trust that your cybersecurity and IT infrastructure are in capable hands, allowing you to focus on your core business with peace of mind.      </p>
       </v-col>
 
       <v-col cols="12" sm="8" class="mx-auto">

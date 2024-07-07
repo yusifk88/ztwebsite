@@ -40,7 +40,7 @@
             15114 Evergreen Dr, Orland Park, IL 60462</p>
 
           <p class="text-h5 font-weight-black mt-5"><v-icon>mdi-mail</v-icon>Email:</p>
-          <p>contact@zerotrustmsp.tech</p>
+          <p>support@zerotrustmsp.tech</p>
 
           <p class="text-h5 font-weight-black mt-5"><v-icon>mdi-phone</v-icon>Tel:</p>
           <p>+1 (708) 940-9918</p>

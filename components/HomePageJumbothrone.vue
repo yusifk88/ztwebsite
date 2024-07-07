@@ -4,11 +4,11 @@
       <v-row>
         <v-col cols="12" sm="6">
           <h1 class="mt-10 font-weight-bold hero-text">
-            Managed IT Solutions for Future-Ready Businesses
+            Innovative IT Solutions for Tomorrow's Businesses
           </h1>
           <h3 class="text-white mt-5 font-weight-light">
-            Discover the power of All Covered’s award-winning, one-stop IT Solution designed to streamline operations,
-            enhance security, and drive your business forward.
+            Experience the benefits of comprehensive IT solution, crafted to simplify operations,
+            boost security, and propel your business ahead
           </h3>
           <p class="mt-8">
             <v-btn to="/contact" size="x-large" rounded variant="flat" color="#50C6E0">Contact us now</v-btn>

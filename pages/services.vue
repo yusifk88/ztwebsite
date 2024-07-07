@@ -7,8 +7,7 @@
   <v-col cols="12" sm="12">
     <h2 class="text-center text-h2 mt-5 font-weight-bold hero-text">Our Services</h2>
     <P class="text-center">
-      At ZeroTrust we offer an extensive set of services that cover all parts of your business when it comes to IT which includes infrastructure, security, Web and app development, cloud migration and hybrid workflow systems and more.
-    </P>
+      Zero Trust is dedicated to maintaining a stable, secure, and business-aligned technology infrastructure. Our comprehensive range of services and solutions provides tailored managed IT plans to enhance your company's productivity.    </P>
   </v-col>
 </v-row>
   <services-compnent extended>

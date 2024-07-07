@@ -11,6 +11,7 @@
           :key="index"
           :src="img"
          height="60px"
+          class="ma-3"
       />
     </Vue3Marquee>
   </v-col>
@@ -31,6 +32,10 @@ export default defineComponent({
   data(){
     return{
       imagesArr:[
+        '/img/camcloud.png',
+        '/img/sophos.png',
+        '/img/march_networks.png',
+        '/img/solink.webp',
         '/img/ms.png',
         '/img/cisco.png',
         '/img/lenovo.png',
