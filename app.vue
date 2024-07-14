@@ -133,6 +133,7 @@
               class="mx-2"
               rounded="xl"
               variant="text"
+              to="/support"
           >
             support
           </v-btn>
