@@ -6,13 +6,13 @@
 <v-row class="mt-4">
   <v-col cols="12" sm="12">
     <Vue3Marquee>
-      <v-img
+      <img
           v-for="(img,index) in imagesArr"
           :key="index"
           :src="img"
-         height="60px"
+          height="60px"
           class="ma-3"
-      />
+      >
     </Vue3Marquee>
   </v-col>
 </v-row>

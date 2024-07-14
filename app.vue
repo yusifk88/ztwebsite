@@ -49,7 +49,7 @@
           About Us
         </v-btn>
 
-        <v-btn v-if="$vuetify.display.mdAndUp" slim>
+        <v-btn v-if="$vuetify.display.mdAndUp" slim to="/support">
           Support
         </v-btn>
 
@@ -83,7 +83,7 @@
             <v-list-item-title> About Us</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/about">
+          <v-list-item to="/support">
             <v-list-item-title> support</v-list-item-title>
           </v-list-item>
 
@@ -91,9 +91,9 @@
             <v-list-item-title> Contact Us</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/resources">
-            <v-list-item-title>Resources</v-list-item-title>
-          </v-list-item>
+<!--          <v-list-item to="/resources">-->
+<!--            <v-list-item-title>Resources</v-list-item-title>-->
+<!--          </v-list-item>-->
 
 
         </v-list>
