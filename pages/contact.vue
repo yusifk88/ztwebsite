@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h1 class="text-h3 hero-text text-center">It all begins from here!</h1>
+          <h1 class="text-h3 hero-text text-center mt-10">It all begins here!</h1>
           <p class="text-center text-white mt-4">Contacts us now</p>
         </v-col>
         <v-col cols="12" sm="6" class="mx-auto">
