@@ -58,15 +58,13 @@
     </v-container>
 
   </div>
-
-
   <testimonials-components></testimonials-components>
   <mid-call-to-action-component></mid-call-to-action-component>
 
   <v-dialog width="500" v-model="ShowSentDialog">
     <v-card>
       <v-card-text class="text-center">
-        <v-icon size="60" color="green">mdi-check-circle-outline</v-icon>
+        <v-icon size="65" color="green">mdi-check-circle-outline</v-icon>
         <h1 class="text-green font-weight-light">Thank you for contacting us!</h1>
         <p class="font-weight-light text-grey">We have received your inquiry and we would reach out shortly.</p>
       </v-card-text>
