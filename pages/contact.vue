@@ -10,7 +10,7 @@
           <v-card>
             <v-card-text>
 
-              <p>All filed marked <span class="text-red">*</span> are strictly required</p>
+              <p>All fields marked <span class="text-red">*</span> are strictly required</p>
               <v-form ref="contactForm">
                 <v-label>First Name<sup class="text-red">*</sup></v-label>
                 <v-text-field v-model="first_name" :rules="requiredRules" variant="outlined"></v-text-field>
