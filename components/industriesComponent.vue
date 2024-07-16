@@ -51,20 +51,20 @@ export default defineComponent({
         {
           title:"Education",
           img:"/img/classroom.jpg",
-          services:["Collaborative Classrooms","E-Rate for Schools/Libraries","Device Procurement","Intelligent Info Management","Online Classrooms"]
+          services:["Interactive Learning Environments","E-Rate Funding for schools and Libraries","Device Acquisition","Virtual Classrooms"]
         }
         , {
           title:"Healthcare",
           img:"/img/hospital.jpg",
-          services:["Collaborative Classrooms","E-Rate for Schools/Libraries","Device Procurement","Intelligent Info Management","Online Classrooms"]
+          services:["Telemedicine and Telehealth","Electronic Health Records (EHR) Systems","Medical Device Integration","Health Information Exchange","Cybersecurity and Compliance with regulations such as HIPAA"]
         }, {
           title:"Legal",
           img:"/img/legal.jpg",
-          services:["Collaborative Classrooms","E-Rate for Schools/Libraries","Device Procurement","Intelligent Info Management","Online Classrooms"]
+          services:["Cybersecurity Solutions & Data protection","Compliance & Risk Management","E-Signature Platforms","Collaboration Tools"]
         }, {
           title:"Finance",
           img:"/img/finance.jpg",
-          services:["Collaborative Classrooms","E-Rate for Schools/Libraries","Device Procurement","Intelligent Info Management","Online Classrooms"]
+          services:["Data Encryption & Access Control","Regulatory Compliance Such as SOX Audit","Mobile Banking & Financial APPs","Data Backup & Recovery","Vendor Management"]
         }
       ]
     }
