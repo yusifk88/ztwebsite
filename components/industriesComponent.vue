@@ -64,7 +64,7 @@ export default defineComponent({
         }, {
           title:"Finance",
           img:"/img/finance.jpg",
-          services:["Data Encryption & Access Control","Regulatory Compliance Such as SOX Audit","Mobile Banking & Financial APPs","Data Backup & Recovery","Vendor Management"]
+          services:["Data Encryption & Access Control","Regulatory Compliance Such as SOX Audit","Data Backup & Recovery","Vendor Management"]
         }
       ]
     }
