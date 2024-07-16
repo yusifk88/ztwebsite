@@ -127,7 +127,6 @@ export default defineComponent({
         contactForm.append("reply-to", this.email);
         contactForm.append('subject', subject);
         contactForm.append('html', html);
-        const runtimeConfig = useRuntimeConfig();
 
         const Key = this.$config.public.mailgunKey;
 
